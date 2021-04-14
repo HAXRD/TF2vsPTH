@@ -12,18 +12,12 @@ To be able to tweak and play around the code, you'll need to install the followi
 ### Install with conda
 If you use `conda`, you can install it with:
 ```(shell)
+$ conda install python=3.6
 $ conda install -c conda-forge jupyterlab
-$ conda install -c anaconda tensorflow
 $ conda install pytorch torchvision torchaudio -c pytorch
 $ conda install matplotlib
-```
-### Install with pip
-If you use `pip`, you can install it with:
-```(shell)
-$ pip install jupterlab
+$ pip install --upgrade pip
 $ pip install tensorflow
-$ pip install torch torchvision torchaudio
-$ pip install matplotlib
 ```
 
 ## Get Started with the Notebooks
